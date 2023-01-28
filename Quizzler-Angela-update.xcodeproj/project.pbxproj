@@ -14,6 +14,8 @@
 		1002BBC42985014200EC1963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1002BBC32985014200EC1963 /* Assets.xcassets */; };
 		1002BBC72985014200EC1963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1002BBC52985014200EC1963 /* LaunchScreen.storyboard */; };
 		1002BBD42985085300EC1963 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1002BBD32985085300EC1963 /* .gitignore */; };
+		1002BBD629850C5A00EC1963 /* QuizzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002BBD529850C5A00EC1963 /* QuizzView.swift */; };
+		1002BBD829850C7C00EC1963 /* ChooseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002BBD729850C7C00EC1963 /* ChooseButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1002BBC62985014200EC1963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1002BBC82985014200EC1963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1002BBD32985085300EC1963 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1002BBD529850C5A00EC1963 /* QuizzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzView.swift; sourceTree = "<group>"; };
+		1002BBD729850C7C00EC1963 /* ChooseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				1002BBC02985014100EC1963 /* Main.storyboard */,
+				1002BBD529850C5A00EC1963 /* QuizzView.swift */,
+				1002BBD729850C7C00EC1963 /* ChooseButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,6 +190,8 @@
 			files = (
 				1002BBBF2985014100EC1963 /* ViewController.swift in Sources */,
 				1002BBBB2985014100EC1963 /* AppDelegate.swift in Sources */,
+				1002BBD829850C7C00EC1963 /* ChooseButton.swift in Sources */,
+				1002BBD629850C5A00EC1963 /* QuizzView.swift in Sources */,
 				1002BBBD2985014100EC1963 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
