@@ -9,10 +9,10 @@ import UIKit
 
 class QuizzView: UIView {
     
-    let scoreHeight: CGFloat = 40
-    let buttonHeight: CGFloat = 80
-    let offset: CGFloat = 12
-    let spacing: CGFloat = 8
+    private let scoreHeight: CGFloat = 40
+    private let buttonHeight: CGFloat = 80
+    private let offset: CGFloat = 12
+    private let spacing: CGFloat = 8
     
     let scoreLabel: UILabel = {
         let label = UILabel()
@@ -34,7 +34,7 @@ class QuizzView: UIView {
     
     let chooseButtons: [ChooseButton] = [.init(), .init() , .init()]
     
-    let mainStackView: UIStackView = {
+    private let mainStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical
         stackView.alignment = .fill
@@ -51,7 +51,7 @@ class QuizzView: UIView {
         return progress
     }()
     
-    let backgroundBottomImage: UIImageView = {
+    private  let backgroundBottomImage: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "Background-Bubbles")
         imageView.contentMode = .scaleAspectFill
@@ -104,6 +104,10 @@ class QuizzView: UIView {
         chooseButtons.forEach { button in
             button.heightAnchor.constraint(equalToConstant: buttonHeight).isActive = true
         }
+    }
+    
+    func configure() {
+        // 
     }
     
 }
