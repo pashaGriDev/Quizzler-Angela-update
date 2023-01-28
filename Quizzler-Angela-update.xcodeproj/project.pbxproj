@@ -16,6 +16,8 @@
 		1002BBD42985085300EC1963 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1002BBD32985085300EC1963 /* .gitignore */; };
 		1002BBD629850C5A00EC1963 /* QuizzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002BBD529850C5A00EC1963 /* QuizzView.swift */; };
 		1002BBD829850C7C00EC1963 /* ChooseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002BBD729850C7C00EC1963 /* ChooseButton.swift */; };
+		1002BBDD2985287800EC1963 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002BBDB2985287800EC1963 /* QuizBrain.swift */; };
+		1002BBDE2985287800EC1963 /* Qustion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002BBDC2985287800EC1963 /* Qustion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1002BBD32985085300EC1963 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1002BBD529850C5A00EC1963 /* QuizzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzView.swift; sourceTree = "<group>"; };
 		1002BBD729850C7C00EC1963 /* ChooseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseButton.swift; sourceTree = "<group>"; };
+		1002BBDB2985287800EC1963 /* QuizBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		1002BBDC2985287800EC1963 /* Qustion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Qustion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 		1002BBCF298506CF00EC1963 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1002BBDB2985287800EC1963 /* QuizBrain.swift */,
+				1002BBDC2985287800EC1963 /* Qustion.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,8 +197,10 @@
 				1002BBBF2985014100EC1963 /* ViewController.swift in Sources */,
 				1002BBBB2985014100EC1963 /* AppDelegate.swift in Sources */,
 				1002BBD829850C7C00EC1963 /* ChooseButton.swift in Sources */,
+				1002BBDD2985287800EC1963 /* QuizBrain.swift in Sources */,
 				1002BBD629850C5A00EC1963 /* QuizzView.swift in Sources */,
 				1002BBBD2985014100EC1963 /* SceneDelegate.swift in Sources */,
+				1002BBDE2985287800EC1963 /* Qustion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
