@@ -13,6 +13,7 @@
 		1002BBC22985014100EC1963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1002BBC02985014100EC1963 /* Main.storyboard */; };
 		1002BBC42985014200EC1963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1002BBC32985014200EC1963 /* Assets.xcassets */; };
 		1002BBC72985014200EC1963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1002BBC52985014200EC1963 /* LaunchScreen.storyboard */; };
+		1002BBD42985085300EC1963 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1002BBD32985085300EC1963 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1002BBC32985014200EC1963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1002BBC62985014200EC1963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1002BBC82985014200EC1963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1002BBD32985085300EC1963 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		1002BBAE2985014100EC1963 = {
 			isa = PBXGroup;
 			children = (
+				1002BBD32985085300EC1963 /* .gitignore */,
 				1002BBB92985014100EC1963 /* Quizzler-Angela-update */,
 				1002BBB82985014100EC1963 /* Products */,
 			);
@@ -56,15 +59,55 @@
 		1002BBB92985014100EC1963 /* Quizzler-Angela-update */ = {
 			isa = PBXGroup;
 			children = (
+				1002BBCE298506C400EC1963 /* App */,
+				1002BBD1298506E000EC1963 /* Controller */,
+				1002BBD0298506D900EC1963 /* View */,
+				1002BBCF298506CF00EC1963 /* Model */,
+				1002BBD2298506E900EC1963 /* Resources */,
+			);
+			path = "Quizzler-Angela-update";
+			sourceTree = "<group>";
+		};
+		1002BBCE298506C400EC1963 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				1002BBBA2985014100EC1963 /* AppDelegate.swift */,
 				1002BBBC2985014100EC1963 /* SceneDelegate.swift */,
-				1002BBBE2985014100EC1963 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1002BBCF298506CF00EC1963 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1002BBD0298506D900EC1963 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				1002BBC02985014100EC1963 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1002BBD1298506E000EC1963 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1002BBBE2985014100EC1963 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1002BBD2298506E900EC1963 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1002BBC32985014200EC1963 /* Assets.xcassets */,
 				1002BBC52985014200EC1963 /* LaunchScreen.storyboard */,
 				1002BBC82985014200EC1963 /* Info.plist */,
 			);
-			path = "Quizzler-Angela-update";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1002BBD42985085300EC1963 /* .gitignore in Resources */,
 				1002BBC72985014200EC1963 /* LaunchScreen.storyboard in Resources */,
 				1002BBC42985014200EC1963 /* Assets.xcassets in Resources */,
 				1002BBC22985014100EC1963 /* Main.storyboard in Resources */,
@@ -289,12 +333,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N2CSX799P5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Quizzler-Angela-update/Info.plist";
+				INFOPLIST_FILE = "Quizzler-Angela-update/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +347,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.babaika.Quizzler-Angela-update";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +365,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N2CSX799P5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Quizzler-Angela-update/Info.plist";
+				INFOPLIST_FILE = "Quizzler-Angela-update/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +379,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.babaika.Quizzler-Angela-update";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
